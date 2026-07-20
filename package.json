@@ -1,0 +1,23 @@
+{
+  "name": "quote-generator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "vue": "latest",
+    "vue-router": "^5.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "^3.4.17",
+    "vite": "latest"
+  }
+}
