@@ -1,6 +1,6 @@
 import { computed, ref } from 'vue'
 
-const createItem = () => ({ id: Date.now(), quantity: 1, brand: '', description: '', reference: '', value: 0 })
+const createItem = () => ({ id: crypto.randomUUID(), quantity: 1, brand: '', description: '', reference: '', value: 0 })
 const createQuote = () => ({ company: '', city: '', plate: '', number: 'QT-2024-001', date: '' })
 
 export function useQuoteForm() {
