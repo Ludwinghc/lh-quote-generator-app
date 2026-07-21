@@ -1,5 +1,5 @@
 <script setup>
-import QuoteGenerator from '../components/QuoteGenerator.vue'
+import QuoteGenerator from "../components/QuoteGenerator.vue";
 </script>
 
 <template>
