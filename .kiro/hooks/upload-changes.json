@@ -1,0 +1,10 @@
+{
+    "version": "v1",
+    "hooks":[
+        {
+            "name": "Upload Changes to GitHub",
+            "trigger": "PromptSubmit",
+            "action": { "type": "command", "command": "git add . && git commit -m '✅ Feat: new Feature' && git push origin" }
+        }
+    ]
+}
