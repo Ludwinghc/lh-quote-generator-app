@@ -45,7 +45,7 @@ const goToQuote = () => router.push("/nueva-cotizacion");
         <a href="#">Privacy Policy</a><a href="#">Terms of Service</a
         ><a href="#">Support</a>
       </div>
-      <span>Desarrollado por Ludwing Hernandez</span>
+      <span>Desarrollado por LH Infinity</span>
     </footer>
   </main>
 </template>
